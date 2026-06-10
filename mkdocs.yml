@@ -1,0 +1,25 @@
+site_name: My projects
+site_author: Adam Sobanski
+site_description: >-
+    Portfolio of my Data Science i AI projects!
+
+repo_name: AdamSobanski/ai_adam_portfolio
+repo_url: https://github.com/AdamSobanski/ai_adam_portfolio.git
+
+theme:
+  name: material
+  palette:
+    primary: teal
+
+nav:
+- Strona Domowa: index.md
+- Obecny projekt:
+  - "Nowy projekt": nowy projekt/index.md
+- Poprzednie projekty:
+  - "Titanic": titanic/index.md
+  - "Iris": iris/index.md
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - tables
